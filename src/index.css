@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+body {
+    background-color: #F5F7FA;
+    font-family: 'Inter', sans-serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.header {
+    width: 1100px;
+    display: flex;
+    padding: 30px 0;
+    gap: 50px;
+}
+
+.header img {
+    width: 111.49px;
+    height: 20.66px;
+}
+
+.header .content-link {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.header .content-link a {
+    font-size: 16px;
+    text-decoration: none;
+    font-weight: 500;
+    line-height: 24px;
+    color: #18191F;
+
+}
+
+.header .content-link a.active {
+    font-size: 19px;
+    font-weight: 700;
+}
+
+.banner {
+    color: #494949;
+    height: 400px;
+    width: 100%;
+    background-color: #e7e7e7;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.banner img {
+    margin: auto 100px auto 100px;
+}
+
+.banner h1 {
+    margin: auto 100px auto 100px;
+    text-align: left;
+    color: #494949;
+}
+
+.banner h2 {
+    margin: auto 100px auto 100px;
+    text-align: left;
+    color: #4CAF4F;
+}
+
+.card {
+    margin: 20px;
+    padding: 50px;
+    align-items: center;
+}
+
+form label {
+    margin-left: 10px;
+}
+
+form input {
+    padding: 1px 30px;
+    margin: auto 10px;
+}
+
+.boton {
+    color: #e7e7e7;
+    text-align: center;
+    background-color: #4CAF4F;
+    padding: 3px 100px;
+    margin: 10px;
+    border: none;
+    border-radius: 3px;
+}
+
+.msjError {
+    color: red;
+    margin: 5px;
+    display: block;
+}
+
+.footer {
+    background-color: #263238;
+    justify-content: center;
+    margin: auto;
+    color: #e7e7e7;
+    text-align: center;
+    padding: 50px;
+    width: 100%;
+    height: 300px;
+}
+
+.footer p {
+    margin: 10px auto;
+    justify-content: center;
+}
+
+.footerLogo {
+    margin: 20px auto;
+}
+
+.rrss {
+    width: 50px;
+    height: 50px;
+    margin: 20px auto;
+}
